@@ -54,7 +54,7 @@ export default function Main() {
         <Display />
         <Choices
           gameItems={gameItems}
-          handleGameItemChange={"Your code here"}
+          handleGameItemChange={handleGameItemChange}
         />
       </div>
     </div>
